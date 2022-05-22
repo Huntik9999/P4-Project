@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .col-sm-12{
     font-size: 32px;
     line-height: 1.5;
@@ -114,7 +115,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.avif");
     background-size: 280px 280px;
 }
 
@@ -296,14 +297,14 @@ a:hover {
 }
 
 .row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #bloc-2-services p {
@@ -501,6 +502,8 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding: 10px; 
+    margin-top: 10px;
 }
 
 .icon-lg {
@@ -726,7 +729,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -808,12 +811,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .ltc-white {
@@ -825,7 +828,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: red!important;
 }
 
 .ltc-atomic-tangerine:hover {
